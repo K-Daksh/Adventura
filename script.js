@@ -103,6 +103,7 @@ class App {
       {
         attribution:
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 17,
       }
     ).addTo(this.#map);
     this.#map.on('click', this._showForm.bind(this));
