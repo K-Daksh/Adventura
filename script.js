@@ -96,7 +96,7 @@ class App {
   _loadMap(location) {
     this.#map = L.map('map').setView(
       [location.coords.latitude, location.coords.longitude],
-      13
+      15
     );
     L.tileLayer(
       'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
